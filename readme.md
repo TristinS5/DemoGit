@@ -43,3 +43,8 @@ git add -A      # Add all files
     git commit -m "msg"
     git merge <branch_name>
     git push origin <branch_name>
+
+# Tag Commands
+    git tag -a v"versoin" -m "msg"
+    git push origin master --tags
+    git push origin --tags
